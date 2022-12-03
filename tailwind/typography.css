@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Grifo S";
+  src:
+    url('{{ "grifo-s.ttf" | asset_url }}') format("truetype"),
+    url('{{ "grifo-s.woff2" | asset_url }}') format("woff2"),
+    url('{{ "grifo-s.woff" | asset_url }}') format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: "Grifo S";
+    src:
+      url('{{ "grifo-s-light.ttf" | asset_url }}') format("truetype"),
+      url('{{ "grifo-s-light.woff2" | asset_url }}') format("woff2"),
+      url('{{ "grifo-s-light.woff" | asset_url }}') format("woff");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+  }
+
+@font-face {
+    font-family: "Maison Neue";
+    src:
+      url('{{ "maison-neue.ttf" | asset_url }}') format("truetype"),
+      url('{{ "maison-neue.woff2" | asset_url }}') format("woff2"),
+      url('{{ "maison-neue.woff" | asset_url }}') format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Maison Neue";
+    src:
+      url('{{ "maison-neue-medium.ttf" | asset_url }}') format("truetype"),
+      url('{{ "maison-neue-medium.woff2" | asset_url }}') format("woff2"),
+      url('{{ "maison-neue-medium.woff" | asset_url }}') format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }

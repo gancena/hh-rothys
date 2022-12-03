@@ -1,0 +1,17 @@
+{
+  "name": "hh-rothys",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gancena/hh-rothys.git",
+  "author": "Eli Gancena <eliziergancena@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build:css": "npx tailwindcss build -i tailwind/tailwind.css -o assets/tailwind.css.liquid --minify",
+    "clean": "rm -rf ./node_modules"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4"
+  }
+}
